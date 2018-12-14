@@ -11,8 +11,8 @@
   },
   "scripts": {
     "testone": "node test.js | tap-spec",
-    "test": "node_modules/.bin/istanbul cover test.js | tap-spec",
-    "testagain": "istanbul cover tape test.js | tap-spec"
+    "testtwo": "node_modules/.bin/istanbul cover test.js | tap-spec",
+    "test": "istanbul cover tape test.js | tap-spec"
   },
   "repository": {
     "type": "git",
