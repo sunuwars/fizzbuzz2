@@ -1,0 +1,27 @@
+{
+  "name": "fizzbuzz2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1"
+  },
+  "scripts": {
+    "test": "node test.js | tap-spec",
+    "testcov": "node_modules/.bin/istanbul cover test.js | tap-spec",
+    "testagain": "istanbul cover tape test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunuwars/fizzbuzz2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunuwars/fizzbuzz2/issues"
+  },
+  "homepage": "https://github.com/sunuwars/fizzbuzz2#readme"
+}
